@@ -17,6 +17,13 @@ incrementing more ifs in this class, probably you need to do this principle.
 We can use Interface or Extension
 ```
 
-4) L - Liskov Substitution Principle
+3L - Liskov Substitution Principle
+```
+Liskov is the name of the woman who creates this principle.
+The subclasses can be substituted by the super classes without any intervention
+Example: Class X (method A, method B)
+Class Y extends X (if the class class Y use the method B and the method B is not making sense for the class Y,
+ So, it is hurting this principle)
+```
 5) I - Interface Segregation Principle
 6) D - Dependency Inversion Principle
