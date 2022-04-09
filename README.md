@@ -22,7 +22,7 @@ Example: Class X has a lot of ifs with an Enum. Instead of doing it, create a cl
          * The base class will always be opened for extension and never has to be changed
 ```
 
-3L - Liskov Substitution Principle
+3) L - Liskov Substitution Principle
 ```
 Liskov is the name of the woman who creates this principle.
 The subclasses can be substituted by the super classes without any intervention
