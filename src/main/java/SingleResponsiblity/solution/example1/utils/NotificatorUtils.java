@@ -1,4 +1,4 @@
-package SingleResponsiblity.solution.utils;
+package SingleResponsiblity.solution.example1.utils;
 
 public class NotificatorUtils {
 

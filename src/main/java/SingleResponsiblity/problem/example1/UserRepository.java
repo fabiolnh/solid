@@ -1,4 +1,4 @@
-package SingleResponsiblity.problem;
+package SingleResponsiblity.problem.example1;
 
 class UserRepository {
 

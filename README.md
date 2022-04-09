@@ -5,6 +5,8 @@ Solid Principles
 1) S - Single-responsiblity Principle:
 ```
 The class has to have a unique responsability. It has to be changed for only one reason
+If you start to see that the class is getting bigger, doing a lot of things, 
+probably is interfering in this principle
 ```
 2) O - Open-closed Principle: 
 ```
