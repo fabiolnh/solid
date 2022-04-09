@@ -42,7 +42,7 @@ Example: Class X implements Interface Y (it has method A and method B)
          And for the Class Y, implements only the Interface A (method A)
 ```
 
-5D - Dependency Inversion Principle
+5) D - Dependency Inversion Principle
 ```
 It has to depends of Abstractions (a model, such as interfaces), not the implementations (a concret class, such as common Class that can be instantiate)
 Invert the dependencies. Do not force a class to depend of a concrete class
