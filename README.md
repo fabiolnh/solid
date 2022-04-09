@@ -32,7 +32,12 @@ Example: Class X (method A, method B)
 ```
 4) I - Interface Segregation Principle
 ```
-.
+A class is not obliged to implement an interface that it will not use all the methods.
+If you are going to use an interface that has a method which you will not use, don´t use this interface! segregate the existing interface or create a new one!
+Example: Class X implements Interface Y (it has method A and method B)
+         Class Y implements Interface Y (it has method A and method B, bot method B does not make sense for this class Y)
+         So, segregate the existing interface in two, and for the Class X, implements Interface 1 (method A) and 2 (method B)
+         And for the Class Y, implements only the Interface A (method A)
 ```
 
 7) D - Dependency Inversion Principle
