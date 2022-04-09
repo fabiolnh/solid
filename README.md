@@ -1,4 +1,4 @@
-# Solid
+# Solid Study
 
 Solid Principles
 
