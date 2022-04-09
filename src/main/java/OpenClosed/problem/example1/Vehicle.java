@@ -1,4 +1,4 @@
-package OpenClosed.problem;
+package OpenClosed.problem.example1;
 
 public class Vehicle {
 

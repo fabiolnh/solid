@@ -1,6 +1,6 @@
-package OpenClosed.solution.vehicles.withExtension;
+package OpenClosed.solution.example1.withExtension;
 
-import OpenClosed.solution.vehicles.withExtension.common.BaseVehicle;
+import OpenClosed.solution.example1.withExtension.common.BaseVehicle;
 
 public class Car extends BaseVehicle {
 

@@ -1,4 +1,4 @@
-package OpenClosed.solution.vehicles.withInterface.common;
+package OpenClosed.solution.example1.withInterface.common;
 
 public interface IVehicleCar {
 

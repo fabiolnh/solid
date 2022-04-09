@@ -1,6 +1,6 @@
-package OpenClosed.solution.vehicles.withInterface;
+package OpenClosed.solution.example1.withInterface;
 
-import OpenClosed.solution.vehicles.withInterface.common.IVehicleCar;
+import OpenClosed.solution.example1.withInterface.common.IVehicleCar;
 
 public class Car implements IVehicleCar {
 

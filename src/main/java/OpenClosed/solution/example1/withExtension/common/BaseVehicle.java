@@ -1,4 +1,4 @@
-package OpenClosed.solution.vehicles.withExtension.common;
+package OpenClosed.solution.example1.withExtension.common;
 
 public abstract class BaseVehicle {
 

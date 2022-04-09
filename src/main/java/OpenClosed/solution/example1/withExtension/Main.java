@@ -1,6 +1,6 @@
-package OpenClosed.solution.vehicles.withInterface;
+package OpenClosed.solution.example1.withExtension;
 
-import OpenClosed.problem.VehicleTypeEnum;
+import OpenClosed.problem.example1.VehicleTypeEnum;
 
 public class Main {
 
@@ -12,6 +12,9 @@ public class Main {
 
         if (vehicleTypeEnum == VehicleTypeEnum.CAR) {
             Car car = new Car("white", "2019", 2.0, 4);
+        }
+        else if (vehicleTypeEnum == VehicleTypeEnum.MOTORCYCLE) {
+            Motorcycle motorcycle = new Motorcycle("black", "2010", 250, 1);
         }
 
     }
