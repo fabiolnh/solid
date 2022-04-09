@@ -4,14 +4,14 @@ public class Vehicle {
 
     private String color;
     private String year;
-    private String engine;
-    private String seats;
+    private double engine;
+    private int seats;
 
-    public Vehicle(String color, String year) {
+    public Vehicle(String color, String year, double engine, int seats) {
         this.color = color;
         this.year = year;
         this.engine = engine;
-        this.year = seats;
+        this.seats = seats;
     }
 
     public void createCar() {
@@ -22,9 +22,7 @@ public class Vehicle {
         System.out.printf("creating a motorcycle with year: %s, engine: %s cilinders", year, engine);
     }
 
-    public void start() {
-        System.out.println("starting");
-    }
+
 
 
 }
