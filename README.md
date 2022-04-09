@@ -9,6 +9,7 @@ If you start to see that the class is getting bigger, doing a lot of things,
 probably is interfering in this principle
 Example: UserRepository, UserService, UserController, User
 ```
+
 2) O - Open-closed Principle: 
 ```
 A Class should be opened for extension, but closed for modification. 
@@ -30,6 +31,7 @@ Example: Class X (method A, method B)
          Class Y extends X (if the class class Y use the method B and the method B is not making sense for the class Y,
          So, it is hurting this principle)
 ```
+
 4) I - Interface Segregation Principle
 ```
 A class is not obliged to implement an interface that it will not use all the methods.
@@ -40,7 +42,13 @@ Example: Class X implements Interface Y (it has method A and method B)
          And for the Class Y, implements only the Interface A (method A)
 ```
 
-7) D - Dependency Inversion Principle
+5D - Dependency Inversion Principle
 ```
-.
+It has to depends of Abstractions (a model, such as interfaces), not the implementations (a concret class, such as common Class that can be instantiate)
+Invert the dependencies. Do not force a class to depend of a concrete class
+Important: Everytime that we have a class and we are using new Object inside it, we are creating an coupling too strong. Put it in the constructor or a setter method, using  an abstraction (Interface)
+           Dependency Injection is good for this case.
+Example: Class X receives a concrete class in some method to work inside of it. 
+         The main purpose here is to receive in the constructor an Interface. So, instead of using concrete classes, we use Interfaces.
+         This way we can create more classes implementing this interface and we do not have to edit the class that is receiving the interface, facilitating maintaining.
 ```
