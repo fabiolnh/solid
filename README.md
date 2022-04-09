@@ -18,7 +18,7 @@ incrementing more ifs in this class, probably you need to do this principle.
 We can use Interface or Extension
 Example: Class X has a lot of ifs with an Enum. Instead of doing it, create a class for each type and extends a super class (base), 
          implementing the superclass method for each subclass. 
-         This way we do not need to use if anymore and when we have one more class, we do not neet to interefe in another, just need to extend Base
+         This way we do not need to use 'if' anymore and when we have to have one more class, we do not need to interefe in another, just need to extend Base
          * The base class will always be opened for extension and never has to be changed
 ```
 
